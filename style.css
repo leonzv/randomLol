@@ -77,23 +77,22 @@ ul, li{
 }
 
 #refreshBtn{
-    width: 100%;
-    height: 100%;
-    background: rgb(0, 0, 0);
+    width: 35px;
+    height: 35px;
+    background: none;
     border-radius: 100%;
-    border: 2px solid #a3373700;
+    border: none;
     z-index: 10;
     position: relative;
 }
 
 #refreshBtn:hover{
-    background: rgba(0, 0, 0, 0.5);
-    border: 2px solid #000000;
+    background: rgba(0, 0, 0, 0);
     cursor: pointer;
 }
 
 #refreshBtn i{
-    color: #ff0d0d;
+    color: #ffd500;
     font-size: 1.5rem;
     position: relative;
     top: -2px;
