@@ -1,12 +1,9 @@
 window.onload = function(){
-  // var refreshBtn = document.getElementById("refreshBtn");
+  var refreshBtn = document.getElementById("refreshBtn");
   
-  // refreshBtn.addEventListener("click", botaoClicado); 
-  
-  // function botaoClicado(){
-  //   console.log("botao clicado")
-  // }
+  refreshBtn.addEventListener("click", getChampionData); 
 
+  function getChampionData() {
   //faz uma solicitação GET para a API Dragon para pegar os dados de um campeão aleatório
   axios.get('https://ddragon.leagueoflegends.com/cdn/13.8.1/data/pt_BR/champion.json')
   .then(function (response) {
@@ -69,5 +66,4 @@ window.onload = function(){
       console.log(error);
   });
 }
-
-//http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg
+} // fim da função getChampionData
