@@ -1,3 +1,4 @@
+//variavel para pegar os ids dos campeoes 
 var champIdObject = {
   266: "Aatrox",
   103: "Ahri",
