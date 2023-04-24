@@ -185,4 +185,4 @@ window.onload = function(){
       console.log(error);
   });
 }
-} // fim da função getChampionData
+}
