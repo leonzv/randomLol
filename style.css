@@ -5,7 +5,7 @@
 }
 
 html, body {
-    background-color: #7841b8;
+    background-image: linear-gradient(0deg, #226eb6 0%, #2c338f 100%);
     color: white;
     font-family: 'Montserrat', sans-serif;
     display: flex;
@@ -83,12 +83,13 @@ ul, li{
     border-radius: 100%;
     border: none;
     z-index: 10;
-    position: relative;
+    position: fixed;
 }
 
 #refreshBtn:hover{
     background: rgba(0, 0, 0, 0);
     cursor: pointer;
+    position: fixed;
 }
 
 #refreshBtn i{
