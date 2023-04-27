@@ -83,7 +83,7 @@ ul, li{
     border-radius: 100%;
     border: none;
     z-index: 10;
-    position: fixed;
+    position: absolute;
 }
 
 #refreshBtn:hover{
