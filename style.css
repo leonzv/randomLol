@@ -52,7 +52,10 @@ ul, li{
 }
 
 .titleText{
-    font-size: 3rem
+    font-size: 3rem;
+    z-index: 3;
+    margin-bottom: 1.5%;
+    
 }
 
 .content{
@@ -60,20 +63,17 @@ ul, li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: auto;
+    position: absolute;
 }
 
 .boxImage{
     background: #226eb6;
+    z-index: 2;
     display: flex;
-    flex-direction: column;
     position: relative;
-    width: 35vw;
-    height: 35vh;
-    z-index: 1;
-    bottom: 50%;
-
+    bottom: 13px;
 }
 
 #refreshBtn{
@@ -98,6 +98,25 @@ ul, li{
     position: relative;
     top: -2px;
     left: 1px;
+}
+
+#splashArt{
+    width: 40vw;
+    height: auto;
+    position: relative;
+}
+
+.build{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40vw;
+
+    
+}
+.build img{
+    width:30vw;
 }
 
 
